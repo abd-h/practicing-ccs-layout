@@ -1,2 +1,2 @@
 # practicing-ccs-layout
-Here i'm recording my progress through css flexbox
+Here as I carry on studying, I will recording my progress through css layout.
