@@ -41,7 +41,7 @@ p {
     line-height: 1.6;
 }
 
-/* Background  */
+/* Header  */
 
 header {
     text-align: center;
@@ -91,19 +91,14 @@ article:nth-of-type(3) {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    flex-direction: column;
-    flex: 400px;
-    flex-basis: baseline;
-
-
-   
-    
+    justify-content: flex-start;
+    flex-direction: row;
 }
 
 /* images */
 
 img {
-    flex: 200px;
+    flex: 300px;
    padding: 20px;
 }
 
@@ -161,4 +156,7 @@ nav li:hover {
     border: 1px solid var(--nav-color);
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+}
+nav ul li a:hover {
+    font-size: 1.6rem;
 }
