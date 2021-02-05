@@ -50,13 +50,22 @@ header {
     background-color: var(--primery-color);
     padding: 40px 0;
 }
+
+
 /* flex layout */
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 section {
     display: flex;
     width: 50%;
     /*Here we see that the children are indeed breaking out of their container. One way in which you can fix this is to add the following declaration to your <section> rule:*/
     flex-wrap: wrap;
     flex-direction: column;
+    flex: 100px;
     
 }
 
@@ -72,7 +81,38 @@ article {
 
 article:nth-of-type(3) {
     flex: 12 200px;
+    background-color: #fff;
 }
+ 
+/* image flex */
+
+.images {
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 400px;
+    flex-basis: baseline;
+
+
+   
+    
+}
+
+/* images */
+
+img {
+    flex: 200px;
+   padding: 20px;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
 
 /* nav */
 
@@ -82,7 +122,6 @@ nav {
     width: 100%;
     height: 60px;
     background-color: rgb(39, 2, 39);
-
 }
 
 ul {
