@@ -8,6 +8,7 @@ html {
     --primery-color: rgb(176, 57, 231);
     --secondry-color: rgb(143, 252, 252);
     --nav-color: rgb(107, 19, 107);
+    --nav-color-two: rgb(7, 129, 129);
     
 
 }
@@ -21,15 +22,18 @@ html {
 body {
     margin: auto;
     font-family: sans-serif;
+    width: 100vw;
 }
- 
+
 /* text styling */
 
 h1 {
+    position: relative;
+    bottom: 10px;
    margin: auto;
     font-size: 3.5rem;
     color: #fff;
-    padding: auto;
+    padding: 0px;
 }
 
 h2 {

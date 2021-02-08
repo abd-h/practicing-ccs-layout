@@ -10,7 +10,7 @@ header nav {
     background-color: rgb(39, 2, 39);
 }
 
-ul {
+header ul {
     width: 70%;
     height: 100%;
     margin: auto;
@@ -23,6 +23,7 @@ ul {
 
 li {
     list-style-type: none;
+    text-transform: capitalize;
 }
 
 header nav a {
@@ -43,25 +44,66 @@ nav li:nth-child(5) {
     order: -1;
 }
 
-nav li:hover {
+header nav li:hover {
     background-color: var(--nav-color);
     border: 1px solid var(--nav-color);
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
-nav ul li a:hover {
+header nav ul li a:hover {
     font-size: 1.6rem;
 }
  /* First article navs */
 
+
+section nav {
+    width: inherit;
+    
+}
+
  section article nav ul {
+     position: relative;
+     width: 100%;
+     height: 60px;
      display: flex;
+     flex-flow: row wrap;
      justify-content: space-around;
- }
+     background-color: var(--nav-color-two);
+     align-items: center;
+    }
+
+    section li {
+        display: inline-block;
+        padding: 20px;
+        
+    }
 
  section article nav ul li a {
-        padding: 10px;
-        margin: 10px;
-        background-color: rgb(2, 179, 179);
+     display: inline;
+        padding: 10px 30px;
+        /* margin: 10px; */
+         background-color: var(--nav-color-two);
         color: #fff;
+        font-size: 1.9rem;
+        text-decoration: none;
+        
  }
+
+/* article li:nth-child(1):hover {
+    align-self: center;
+   height: 40px;
+} */
+
+article a:nth-child(1):hover {
+    position: relative;
+    top:4px;
+    padding-bottom: 15px;
+    padding-top: 20px;;
+    border-top: 3px solid var(--nav-color-two);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 1.7rem;
+    align-self: flex-end;
+    background-color: var(--nav-color);
+    margin-right: 40px;
+}
