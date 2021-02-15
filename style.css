@@ -1,0 +1,33 @@
+body {
+    width: 80vw;
+    font-family: sans-serif;
+    font-size: 10px;
+    margin: auto;
+    padding: 0;
+    --first-color: rgb(245, 179, 56);
+    --second-color: rgb(248, 244, 230);
+    --third-color: rgb(250, 206, 124);
+    --fourth-color: rgb(231, 151, 2);
+    --new-color: rgb(248, 225, 183);
+}
+
+.wrapper {
+    background-color: var(--second-color);
+    border: 2px solid var(--first-color);
+    border-radius: 10px;
+    font-size: 2em;
+    color: var(--fourth-color);
+    margin: auto;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: 100px 200px
+}
+
+.wrapper div {
+    background-color: var(--new-color);
+    border: 1px solid var(--third-color);
+    border-radius: 5px;
+    padding: 30px;
+}
