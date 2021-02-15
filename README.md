@@ -4,5 +4,7 @@
 
 ## CSS Grid - lesson covers below topics
 
-- Defaul rules for auto-placement
+- Default rules for auto-placement
 - Sizing rows in the implicit grid
+- Auto-placement by column
+- Deal with items that span tracks
