@@ -1,4 +1,4 @@
-#Auto-placement in CSS Grid Layout
+# Auto-placement in CSS Grid Layout
 
 .  index.html  and style.css added.
 
@@ -15,3 +15,5 @@
 -Aligning items on the Block Axis
 - Items with an intrinsic aspect ratio
 - Justifying Items on the Inline Axis
+-Justifying the grid tracks on the inline axis
+-Alignment and auto margins

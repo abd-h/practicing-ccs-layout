@@ -52,7 +52,7 @@ body {
 
 /* Aligning items on the Block Axis */
 hr {
-    margin: 60px auto;
+    margin: 100px auto;
 }
 .container {
     background-color: var(--second-color);
@@ -75,29 +75,84 @@ hr {
 }
 
 .item1 {
+    background-color: rgb(163, 190, 250);
     grid-area: a;
+    align-self:stretch;
 }
 
 .item2 {
+    background-color: rgb(220, 179, 248);
     grid-area: b;
-    align-self: start;
+    place-self: center;
 }
 
 .item3 {
+    background-color: rgb(183, 248, 248);
     grid-area: c;
-    align-self: center;
+    place-self: center;
 }
 
 .item4 {
+    background-color: rgb(236, 251, 251);
     grid-area: d;
-    justify-self: center;
+    justify-self: stretch;
+    align-self: stretch;
 }
 
 
 .container div {
+    /* background-color: var(--new-color); */
+    border: 1px solid var(--third-color);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+/* dealig with grid tracks*/
+
+.new-container {
+    width: 500px;
+    height: 500px;
+    background-color: var(--second-color);
+    border: 2px solid var(--first-color);
+    border-radius: 10px;
+    font-size: 2em;
+    color: var(--fourth-color);
+    /* padding: 30px; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    grid-template-areas: 
+    "a a b"
+    "a a b"
+    "c d d";
+    
+}
+
+.a {
+    grid-area: a;
+    margin-left: auto;
+}
+
+.b {
+    grid-area: b;
+}
+
+.c {
+    grid-area: c;
+}
+
+.d {
+    grid-area: d;
+}
+
+.new-container div {
     background-color: var(--new-color);
     border: 1px solid var(--third-color);
     border-radius: 5px;
     padding: 30px;
 }
+
+
 
