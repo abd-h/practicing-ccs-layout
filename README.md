@@ -10,3 +10,8 @@
 - Deal with items that span tracks
 
 ### Table content
+
+- The two axes of a grid layout
+-Aligning items on the Block Axis
+- Items with an intrinsic aspect ratio
+- Justifying Items on the Inline Axis
