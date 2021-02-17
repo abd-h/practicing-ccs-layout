@@ -17,3 +17,16 @@
 - Justifying Items on the Inline Axis
 -Justifying the grid tracks on the inline axis
 -Alignment and auto margins
+
+### Logical and physical properties and values
+
+- Logical properties and values
+- Block and Inline
+- writing-mode
+-Writing modes in grid layouts
+-Logical values for alignment
+-Line-based placement and Writing Modes
+-The strange order of values in the grid-area property
+-Mixed writing modes and grid layout
+-Physical values and grid layout
+-Logical properties for everything!

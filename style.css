@@ -127,12 +127,15 @@ hr {
     "a a b"
     "a a b"
     "c d d";
-    
+    position: relative;    
 }
 
 .a {
     grid-area: a;
     margin-left: auto;
+    position: absolute;
+    top: 60px;
+    left: 60px;
 }
 
 .b {
