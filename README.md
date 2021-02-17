@@ -2,3 +2,4 @@
 
 - grid-template-areas used.
 -media query practiced.
+- Building a layout using the 12-column system

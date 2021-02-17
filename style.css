@@ -51,7 +51,7 @@ p,
 .ad {
     font-size: 1.3rem;
     font-weight: lighter;
-    /* padding: 10px; */
+    padding: 10px;
 }
 
 /* borders */
@@ -116,7 +116,6 @@ article {
     grid-area: f;
 }
 
-
 @media (max-width: 700px) {
     .wrapper {
     background-color: var(--second-color);
@@ -155,5 +154,41 @@ nav ul {
 }
 }
 
+ 
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(12, [col-start] 1fr);
+        gap: 20px;
+    }
+  
+.wrapper > * {
+    grid-column: col-start / span 12;
+}
+
+@media (min-width: 600px) {
+nav {
+    grid-column: 1 /span 13;
+    grid-row: 2;
+}
+
+.side {
+    grid-column: col-start / span 3;
+    grid-row: 3;
+}
+
+.ad {
+    grid-column: col-start / span 3;
+    grid-row: 4;
+}
+
+.content, 
+.main-footer {
+    grid-column: col-start 4 / span 9;
+}
+
+nav ul {
+    justify-content: space-between;
+}
+}
 
 
