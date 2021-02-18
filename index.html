@@ -27,9 +27,29 @@
                     In this layout, we display the areas in source order for any screen less that 500 pixels wide. We go to a two column
                 layout, and then to a three column layout by redefining the grid, and the placement of items on the grid.
             </p>
+
+            <p>
+                There are some key differences with how a grid layout works over the grid systems you may have used previously. As you
+                can see, we do not need to add any markup to create a row, grid systems need to do this to stop elements popping up into
+                the row above. With CSS Grid Layout, we can place things into rows, with no danger of them rising up into the row above
+                if it is left empty. Due to this strict column and row placement we can also easily leave white space in our layout. We
+                also don’t need special classes to pull or push things, to indent them into the grid. All we need to do is specify the
+                start and end line for the item.
+
+            </p>
+
             </article>
 
-            <aside class="side">Aside</aside>
+            <aside class="side">
+                <h2>
+                    Building a layout using the 12-column system
+                </h2>
+                <p>
+                    To see how this layout method works in practice, we can create the same layout that we created with grid-template-areas,
+                    this time using the 12-column grid system. I am starting with the same markup as used for the grid template areas
+                    example.
+                </p>
+            </aside>
             
             <div class="ad">Adverticing</div>
         

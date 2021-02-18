@@ -58,7 +58,7 @@ p,
 
 header, 
 nav,
-article,
+.content,
 .side,
 .ad,
 .main-footer {
@@ -100,7 +100,7 @@ nav {
    
 }
 
-article {
+.content {
     grid-area: a;
 }
 
